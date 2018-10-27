@@ -1,0 +1,79 @@
+* {
+  font-family: "Montserrat", sans-serif;
+  /* border: 1px solid black; */
+}
+
+container{
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: black;
+  color: #aab90d;
+}
+
+a:link {
+  color: #aab90d;
+  text-decoration:none; 
+}
+
+a:visited {
+  color: #aab90d;
+  text-decoration:none; 
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.menu {
+  display: flex;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+ul > li {
+  list-style-type: none;
+  margin-right: 10px;
+}
+
+.button {
+  position: fixed;
+  align-self: flex-end;
+  margin-top: 75px;
+}
+
+button {
+  background-image: url("../images/boton.png");
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  border-radius: 50%;
+  height: 182px;
+  width: 190px;
+  margin: 20px;
+}
+
+#inicio{
+  background-image: url("../images/imagen-portada-1.png");
+  height: 670px;
+}
+
+.claim{
+  color: white;
+  font-family: 'Kaushan Script';
+}
