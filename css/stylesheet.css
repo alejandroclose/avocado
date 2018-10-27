@@ -55,11 +55,13 @@ ul > li {
   position: fixed;
   align-self: flex-end;
   margin-top: 75px;
+  background-color: black;
 }
 
 button {
   background-image: url("../images/boton.png");
   background-repeat: no-repeat;
+  background-color: black;
   border: none;
   text-align: center;
   text-decoration: none;
