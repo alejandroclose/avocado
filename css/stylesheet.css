@@ -1,5 +1,6 @@
 * {
   font-family: "Montserrat", sans-serif;
+  margin: 0;
   /* border: 1px solid black; */
 }
 
@@ -10,6 +11,7 @@ container{
 
 .navbar {
   width: 100%;
+  padding-top: 10px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -57,8 +59,8 @@ ul > li {
 
 button {
   background-image: url("../images/boton.png");
+  background-repeat: no-repeat;
   border: none;
-  color: white;
   text-align: center;
   text-decoration: none;
   display: block;
@@ -71,9 +73,24 @@ button {
 #inicio{
   background-image: url("../images/imagen-portada-1.png");
   height: 670px;
+  display:flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.header{
+  margin-bottom: 200px;
+  margin-right: 250px;
+}
+
+.title{
+  font-size: 7em;
+  color: #aab90d;
+  font-family: 'Kaushan Script';
 }
 
 .claim{
   color: white;
-  font-family: 'Kaushan Script';
+  font-size: 2em;
+  
 }
